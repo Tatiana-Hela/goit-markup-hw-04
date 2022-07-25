@@ -175,6 +175,7 @@ body {
 /* =========/CONTACTS========== */
 /* =========HERO========== */
 .hero {
+    margin: auto;
     max-width: 1600px;
     height: 600px;
     padding: 200px 0;
@@ -309,13 +310,7 @@ body {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
-.client-list-link.current {
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-}
-.client-list-link.current .client-list-icon {
-    fill: var(--accent-color);
-}
+
 /* =========/CLIENTS========= */
 /* =========/WORK========== */
 /* =========TEAM========== */
@@ -383,15 +378,6 @@ body {
 }
 .social-list-link.current {
     background-color: var(--accent-color);
-}
-.social-list-link.current .social-list-icon {
-    fill: var(--secondary-accent-color);
-}
-.social-list-link-footer.current {
-    background-color: var(--accent-color);
-}
-.social-list-link-footer.current .social-list-icon {
-    fill: var(--secondary-accent-color);
 }
 /* =========/TEAM========== */
 /* =========FOOTER========== */
